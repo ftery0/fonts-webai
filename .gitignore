@@ -1,3 +1,70 @@
+# Node
+node_modules/
+.npm/
+.next/
+out/
+.turbo/
+.vercel/
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+
+
+# Env / IDE
+.env
+.env.*
+!.env.example
+.DS_Store
+.vscode/
+.idea/
+
+# Coverage / Build
+coverage/
+.nyc_output/
+dist/
+build/
+
+# Python (ml_server)
+ml_server/.venv/
+ml_server/__pycache__/
+ml_server/.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Checkpoints / Data (large files)
+ml_server/checkpoints/
+ml_server/runs/
+ml_server/logs/
+ml_server/data/
+data/
+datasets/
+weights/
+*.pt
+*.pth
+*.ckpt
+
+# Generated assets
+public/uploads/
+public/output/
+public/segments/
+public/*.svg
+public/*.ttf
+
+# Notebooks
+.ipynb_checkpoints/
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon?
+._*
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
